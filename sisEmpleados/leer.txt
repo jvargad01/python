@@ -1,0 +1,34 @@
+tener instalado python 
+www.python.org
+descargar Flask 
+flask.palletsprojects.com
+
+visual code 
+base de datos mysql XAMPP como recomendado. 
+
+crear carpeta 
+instalar unas extenciones visual code 
+  Bootstrap v4 snippers 
+  flask snippets (code yard)
+  flask-snippets (cstrap)
+  jinja2 snippet kit (wyatt ferguson)
+
+  planinght theme (olaolu olawuyi)
+  Andromeda (Eliver Lara)
+  
+
+Crear una base de datos "empleados" 
+
+CREATE TABLE `empleado` (
+  `id` int(11) NOT NULL,
+  `nombre` varchar(255) COLLATE utf8_spanish2_ci NOT NULL,
+  `correo` varchar(255) COLLATE utf8_spanish2_ci NOT NULL,
+  `foto` varchar(5000) COLLATE utf8_spanish2_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish2_ci;   
+
+ALTER TABLE `empleado`
+  ADD PRIMARY KEY (`id`);
+ 
+ALTER TABLE `empleado`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+COMMIT;
